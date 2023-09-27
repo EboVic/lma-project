@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGN UP ON LMA</title>
+  </head>
+
+  <style>
+    input[type="text"] {
+      width: 300px;
+      height: 40px;
+      font-size: 18px;
+      padding: 5px;
+    }
+
+    input[type="email"] {
+      width: 300px;
+      height: 40px;
+      font-size: 18px;
+      padding: 5px;
+    }
+
+    input[type="number"] {
+      width: 300px;
+      height: 40px;
+      font-size: 18px;
+      padding: 5px;
+    }
+
+    button {
+      width: 100px;
+      height: 40px;
+      font-size: 18px;
+      padding: 5px;
+      margin: 10px;
+    }
+
+    label {
+      color: yellow;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 20px;
+    }
+    body {
+      background-repeat: no-repeat;
+      background-size: cover;
+      backdrop-filter: blur(10px);
+    }
+
+    .navb {
+      text-align: center;
+      background-color: rgb(2, 189, 12);
+      font-size: larger;
+      font-weight: 600;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 15px;
+    }
+
+    .navb a:hover {
+      color: rgb(255, 255, 4);
+    }
+
+    form {
+      text-align: center;
+      margin: 500px 0;
+    }
+
+    footer {
+      background-color: rgb(2, 189, 12);
+      padding: 15px 0;
+      color: rgba(255, 255, 0, 0.9);
+      font-size: 25px;
+      text-align: center;
+    }
+  </style>
+  <body style="background-image: url(/img/pexels-olia-danilevich-8093032.jpg)">
+    <h3>
+      <nav class="navb">
+        <a href="/about us.html" target="_blank"> About Us</a> |
+        <a href="/lma home page.html" target="_blank">Home</a> |
+        <a href="/sign up.html" target="_blank">Sign Up</a> |
+      </nav>
+    </h3>
+
+    <br />
+
+    <br />
+    <form>
+      <label for="fname">First Name:</label> <br />
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="First name"
+        required
+        autofocus
+      />
+      <br />
+
+      <label for="lname">Last name:</label> <br />
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="Last name"
+        required
+      />
+      <br />
+
+      <label for="email">Email:</label> <br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="ebovictor2@gmail.com"
+        required
+      />
+      <br />
+
+      <label for="tel">Phone Number:</label> <br />
+      <input
+        type="number"
+        id="tel"
+        name="tel"
+        placeholder="+2348133297079"
+        required
+      />
+      <br />
+
+      <label for="country">Country:</label> <br />
+      <input type="text" id="Country" name="Country" placeholder="Nigeria" />
+      <br />
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <footer>&copy;2023 LIKE MINDS ACADEMY</footer>
+  </body>
+</html>
